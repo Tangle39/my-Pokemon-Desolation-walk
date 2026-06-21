@@ -1,0 +1,10 @@
+# MkDocs 生成的网站文件
+site/
+
+# 可选：同时忽略一些临时文件
+*.pyc
+__pycache__/
+.DS_Store
+
+.idea/
+.vscode/

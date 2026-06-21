@@ -1,0 +1,36 @@
+site_name: 我的宝可梦荒凉
+site_url: https://Tangle39.github.io/my-Pokemon-Desolation-walk/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换暗黑模式
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+
+nav:
+  - 主页: index.md
+  - 流程记录: playthrough.md
+#  - 队伍配置: team.md
+#  - 遇怪列表: encounters.md
+#  - 支线任务: sidequests.md
+#  - 剧情选择: choices.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - tables
