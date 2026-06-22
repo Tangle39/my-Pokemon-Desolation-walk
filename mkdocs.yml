@@ -6,6 +6,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.top
     - toc.follow
     - content.code.copy
     - content.action.edit
